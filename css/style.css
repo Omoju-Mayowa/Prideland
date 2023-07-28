@@ -219,7 +219,7 @@ nav button {
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    background: #fff;
+    background: #000;
     transition: width .3s ;
 }
 
@@ -227,9 +227,6 @@ nav button {
     width: 50%;
 }
 
-.nav__menu a:hover {
-    color: rgba(255, 255, 255, 0.5);
-}
 
 .icon__container {
     display: flex;
