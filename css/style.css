@@ -168,8 +168,12 @@ nav button i {
 
 /* Change navbar styles on scroll using javascript */
 .window-scroll {
-    background: var(--color-light);
+    background: var(--color-white);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.window-scroll .nav__menu a {
+    color: var(--color-black);
 }
 
 .window-scroll .nav__menu a.link {
